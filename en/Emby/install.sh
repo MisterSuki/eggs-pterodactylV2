@@ -1,6 +1,6 @@
 #!/bin/bash
 if [[ -f "./Emby/EmbyServer.dll" ]]; then
-    bash <(curl -s "https://raw.githubusercontent.com/Ashu11-A/Ashu_eggs/main/Connect/en/Emby/start.sh")
+    bash <(curl -s "https://raw.githubusercontent.com/MisterSuki/eggs-pterodactylV2/main/en/Emby/start.sh")
 else
 
     GITHUB_PACKAGE=MediaBrowser/Emby.Releases
