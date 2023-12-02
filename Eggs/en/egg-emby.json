@@ -22,7 +22,7 @@
     },
     "scripts": {
         "installation": {
-            "script": "#!\/bin\/bash\r\napt update\r\napt upgrade -y\r\napt install -y curl wget unzip git tar ca-certificates jq fuse unzip\r\nbash <(curl -s https:\/\/raw.githubusercontent.com\/Ashu11-A\/Ashu_eggs\/main\/Connect\/en\/Emby\/install.sh)",
+            "script": "#!\/bin\/bash\r\napt update\r\napt upgrade -y\r\napt install -y curl wget unzip git tar ca-certificates jq fuse unzip\r\nbash <(curl -s https://raw.githubusercontent.com/MisterSuki/eggs-pterodactylV2/main/en/Emby/install.sh)",
             "container": "debian:buster-slim",
             "entrypoint": "bash"
         }
